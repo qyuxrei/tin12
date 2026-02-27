@@ -11,6 +11,12 @@
   flex: 5%
   background-color: purple
 }
+
+.content{
+  flex: 65%;
+  background-color: white;
+}
+
 .content iframe{
   flex: 1;
   background-color: yellow;
@@ -30,7 +36,7 @@ h1 {
   text-align:center;
 }
 
-.tuade {
+.tieude {
   color: tomato;
   font-family: Arial;
   top-margin: 20pt;
