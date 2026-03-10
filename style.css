@@ -17,7 +17,7 @@ align-items: center;
 }
 .menu a{
 padding: 15px 20px;
-color: orange;
+color: red;
 }
 .menu hover{
 background-color: darkgray;
