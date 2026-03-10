@@ -11,7 +11,7 @@ aspect-ratio: 6 / 1;
 }
 .menu{
 flex: 5%;
-background-color: lightgray;
+background-color: gray;
 display: flex;
 align-items: center;
 }
@@ -35,7 +35,7 @@ height:100%;
 }
 .footer{
 flex: 10%;
-background-color: blue;
+background-color: lightgray;
 }
 .tieude{
 color:red;
