@@ -1,34 +1,20 @@
-<div class="form-container" id="formBox">
-    <h3>1. Thông tin về người góp ý</h3>
-
-    <label>Họ và tên</label>
-    <input type="text" class="input-box">
-
-    <label>Địa chỉ email</label>
-    <input type="email" class="input-box">
-
-    <h3>2. Đóng góp ý kiến</h3>
-
-    <label>Ý kiến đóng góp:</label>
-    <textarea></textarea>
-
-    <label>Thể loại cần bổ sung thêm sách</label>
-    <div class="checkbox-group">
-        <label><input type="checkbox"> Truyện ngắn</label>
-        <label><input type="checkbox"> Kĩ năng sống</label>
-        <label><input type="checkbox"> Công nghệ thông tin</label>
-        <label><input type="checkbox"> Truyện tranh</label>
-        <label><input type="checkbox"> Lịch sử</label>
-    </div>
-
-    <button onclick="guiYKien()">Gửi</button>
-</div>
-
-<script>
-function guiYKien() {
-    document.getElementById("formBox").innerHTML = `
-        <h3>Cảm ơn bạn đã góp ý kiến</h3>
-        <p>Chúng tôi trân trọng những ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ bạn đọc trong thời gian sắp tới.</p>
-    `;
-}
-</script>
+<head>
+  <body>
+    <form action = "Bai7-NV3.html">
+      <h1><b>Đóng góp ý kiến cho thư viện nhà trường</b></h1><br>
+      <h2><b>1.Thông tin về người góp ý</b></h2>
+      <label>Họ và tên:<input type ="text" name="txtTen"></label><br>
+       <label>Địa chỉ email:<input type ="email" name="txtEmail"></label><br>
+       Password:<input type ="password" name="txtMK"><br>
+       <h2><b>2.Đóng góp ý kiến</b></h2>
+      <label>Ý kiến đóng góp:<textarea name="txtComment" rows="6" cols= "40"></textarea></label><br>
+      <input type = "checkbox" name = "chkTruyenNgan">Truyện ngắn <br>
+      <input type = "checkbox" name = "chkKiNang">Kĩ năng sống <br>
+      <input type = "checkbox" name = "chkCNTT">Công nghệ thông tin <br>
+      <input type = "checkbox" name = "chkTruyentrah">Truyện tranh <br>
+      <input type = "checkbox" name = "chkLichSu">Lịch sử <br>
+      <input type = "submit" name = "cmd" value="Góp ý">
+      
+    </form>
+  </body>
+</head>
