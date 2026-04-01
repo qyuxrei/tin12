@@ -60,14 +60,7 @@ top-margin: 5pt;
 font-size: 13pt;
 }
 
-.header {
-  overflow: hidden;
-}
 
-.header img {
-  width: 100%;
-  height: 270px;
-  object-fit: cover; 
-}
+
 
 
