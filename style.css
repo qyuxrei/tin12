@@ -3,40 +3,48 @@ display: flex;
 flex-direction: column;
 height: 100vh;
 }
+
 .header{
 flex: 15%;
 background-color: blue;
 background: url("unnamed.png") center;
 aspect-ratio: 6 / 1;
 }
+
 .menu{
 flex: 5%;
 background-color: gray;
 display: flex;
 align-items: center;
 }
+
 .menu a{
 padding: 15px 20px;
 color: red;
 }
+
 .menu hover{
 background-color: darkgray;
 color: black;
 }
+
 .content{
 flex: 65%;
 background-color: white;
 }
+
 .content iframe{
 flex: 1;
 border:none;
 width:100%;
 height:100%;
 }
+
 .footer{
 flex: 10%;
 background-color: lightgray;
 }
+
 .tieude{
 color:red;
 font-family:Arial;
@@ -44,9 +52,16 @@ top-margin: 10pt;
 font-size: 18pt;
 font-weight:bold;
 }
+
 .noidung{
 color:black;
 font-style:normal;
 top-margin: 5pt;
 font-size: 13pt;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
